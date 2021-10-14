@@ -13,3 +13,6 @@ A continuación debemos capturar las imagenes a tratar, en nuestro caso los arch
 Para hallar este ángulo hacemos uso de la librería math ya mencionada, donde hacemos uso de las funciones arcocoseno y "degrees" para hallar el valor del ángulo en un valor decimal, mientras hacemos uso de cv2 para el dibujo de las líneas que representarán nuestro ángulo y para la creación de los puntos de nuestro ángulo, también creando el contorno del mismo; siguiendo con nuestro proceso dibujamos nuestra mano con las líneas y ángulos definidos, creando una variable que almacenará los puntos de la mano.
 
 Luego de obtener todos los puntos, líneas, posiciones, angulos necesitados hacemos uso de estos para la definición de nuestro conjunto de gestos, que se determinaron gracias al análisis de si al momento de realizarse la mano se encuentra cerrada o abierta y dependiendo el valor de su ángulo conocer su posición y por ende la acción realizada, donde finalmente al reconocer el gesto realizado escribe el nombre de este en pantalla.
+
+## Gestos
+[Mano_cerrada]: ./Mano_cerrada.PNG "Gesto: Mano Cerrada"
