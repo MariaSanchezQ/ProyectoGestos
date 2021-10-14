@@ -15,6 +15,22 @@ Para hallar este ángulo hacemos uso de la librería math ya mencionada, donde h
 Luego de obtener todos los puntos, líneas, posiciones, angulos necesitados hacemos uso de estos para la definición de nuestro conjunto de gestos, que se determinaron gracias al análisis de si al momento de realizarse la mano se encuentra cerrada o abierta y dependiendo el valor de su ángulo conocer su posición y por ende la acción realizada, donde finalmente al reconocer el gesto realizado escribe el nombre de este en pantalla.
 
 ## Gestos
-### ->Mano Cerrada<-
+### Mano Cerrada
 
-->![Mano_cerrada](Mano_cerrada.PNG "Gesto: Mano Cerrada")<-
+![Mano_cerrada](Mano_cerrada.PNG "Gesto: Mano Cerrada")
+
+### Mano Abierta - Soltar
+
+![Mano_abierta](Mano_abierta.PNG "Gesto: Mano Abierta")
+
+### Impulso
+
+![Impulso](Impulso.PNG "Gesto: Impulso")
+
+### Arrojado
+
+![Arrojar](Arrojado.PNG "Gesto: Arrojado")
+
+### Arrojado Enfrente
+
+![Enfrente](Enfrente.PNG "Gesto: Arrojado Enfrente")
